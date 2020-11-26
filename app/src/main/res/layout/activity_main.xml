@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/nav"
+        android:padding="16dp" />
+
+    <LinearLayout
+        android:id="@+id/nav"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#8BC34A"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ib_index"
+            style="@style/MainBottomImageButton"
+            android:src="@drawable/home" />
+
+        <ImageView
+            android:id="@+id/ib_news"
+
+            style="@style/MainBottomImageButton"
+            android:src="@drawable/contact" />
+
+        <ImageView
+            android:id="@+id/ib_found"
+            style="@style/MainBottomImageButton"
+            android:src="@drawable/message" />
+
+
+        <ImageView
+            android:id="@+id/ib_me"
+            style="@style/MainBottomImageButton"
+            android:src="@drawable/me" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

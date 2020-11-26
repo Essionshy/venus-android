@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TableRow>
+        <TextView/>
+        <Button
+            android:id="@+id/btn_shebao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shebao"
+            android:textAllCaps="false" />
+
+
+        <Button
+            android:id="@+id/btn_vedio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/movie"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/music"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_start_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="启动服务"
+            android:textAllCaps="false" />
+
+        <TextView />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView />
+
+        <Button
+            android:id="@+id/btn_stop_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="停止服务"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_lottery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lottory"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_sensor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/light_sensor"
+            android:textAllCaps="false" />
+        <Button
+            android:id="@+id/btn_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/map"
+            android:textAllCaps="false" />
+
+
+        <TextView />
+    </TableRow>
+    <TableRow>
+
+        <TextView />
+
+
+        <ImageButton
+            android:id="@+id/ib_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <!--        android:src="@drawable/abc_vector_test"-->
+        <!--        android:background="@color/btn_bg"-->
+        <!--        android:layout_marginTop="@dimen/btn_marginTop"-->
+        <!--        android:layout_marginLeft="@dimen/btn_marginLeft"-->
+
+
+        <TextView />
+    </TableRow>
+</TableLayout>

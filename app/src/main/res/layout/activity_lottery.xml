@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:paddingTop="20dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    >
+
+
+    <TextView
+        android:id="@+id/tv_lottery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选择注数"
+        android:layout_marginBottom="20dp"
+        android:background="@color/cardview_light_background"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_item_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="@string/lottory_default_value"
+        android:paddingRight="20dp"
+
+        android:layout_below="@+id/tv_lottery"/>
+
+    <TextView
+        android:id="@+id/tv_item_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lottory_default_value"
+        android:textAllCaps="false"
+        android:layout_toRightOf="@+id/tv_item_01"
+        android:layout_below="@+id/tv_lottery"
+        android:paddingRight="20dp"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/tv_item_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lottory_default_value"
+        android:layout_toRightOf="@+id/tv_item_02"
+        android:layout_below="@+id/tv_lottery"
+        android:paddingRight="20dp"
+
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/tv_item_04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lottory_default_value"
+        android:layout_toRightOf="@+id/tv_item_03"
+        android:layout_below="@+id/tv_lottery"
+        android:paddingRight="20dp"
+
+        android:textAllCaps="false"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/tv_item_05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lottory_default_value"
+        android:layout_toRightOf="@+id/tv_item_04"
+        android:layout_below="@+id/tv_lottery"
+        android:paddingRight="20dp"
+
+        android:textAllCaps="false"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/tv_item_06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lottory_default_value"
+        android:paddingRight="20dp"
+
+        android:layout_toRightOf="@+id/tv_item_05"
+        android:layout_below="@+id/tv_lottery"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/tv_item_07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lottory_default_value"
+        android:layout_toRightOf="@+id/tv_item_06"
+        android:paddingRight="20dp"
+
+        android:layout_below="@+id/tv_lottery"
+        android:textSize="12sp"/>
+
+    <Button
+        android:id="@+id/btn_choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="随机选号"
+        android:layout_below="@+id/tv_item_07"
+        android:background="#FF7F50"
+        android:layout_marginTop="50dp"
+        android:textAllCaps="false" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_search"
+        android:title="搜索"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_create_group"
+        android:title="发起群聊"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_add_contact"
+        android:title="添加好友"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_settings"
+        android:title="设置"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_about"
+        android:title="关于"
+        app:showAsAction="never" />
+
+</menu>
